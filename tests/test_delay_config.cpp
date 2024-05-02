@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 
-#include "delay_config.hpp"
+#include "../include/delay_config.hpp"
 
 class TestDelayConfig : public ::testing::Test {
   static constexpr const auto tmp_filename = "test_config";
