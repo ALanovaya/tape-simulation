@@ -1,14 +1,12 @@
 CXX = g++
 
-CXXFLAGS = -std=c++17 -O2 -Wall -I/usr/include/boost -I/usr/local/include/gtest
+CXXFLAGS = -std=c++17 -O2 -Wall 
 LDFLAGS = -lboost_program_options -lgtest -lgtest_main -lpthread
 
-# Исходные файлы
 SOURCES = main.cpp
 OBJECTS = $(SOURCES:.cpp=.o)
 EXECUTABLE = app
 
-# Путь к исходным файлам тестов
 TEST_SOURCES = $(wildcard tests/*.cpp)
 TEST_OBJECTS = $(TEST_SOURCES:.cpp=.o)
 TEST_EXECUTABLE = run_tests
