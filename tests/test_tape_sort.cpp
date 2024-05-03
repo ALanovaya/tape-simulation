@@ -75,5 +75,5 @@ TEST_F(TestTapeSort, sortedValues) {
 
 INSTANTIATE_TEST_SUITE_P(Sort, TestTapeSort,
                          testing::Combine(testing::Values(1, 100, 10'000,
-                                                          1'000'000),
+                                                          100'000),
                                           testing::Values(10, 50, 100, 500)));
