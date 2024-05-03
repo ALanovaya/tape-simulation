@@ -14,7 +14,7 @@ Key attributes of the tape storage in this project include:
 ```bash
 git clone https://github.com/ALanovaya/tape-simulation.git
 ```
-3. Install library for parsing arguments:
+2. Install library for parsing arguments:
 ```bash
 sudo apt update
 sudo apt install -y libboost-program-options-dev
